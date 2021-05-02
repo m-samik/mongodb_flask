@@ -7,6 +7,6 @@ filter={}
 result = client['mark_jan']['marks'].find({"name" : name})
 for i in result:
     print(i)
-
+#test
 
 
