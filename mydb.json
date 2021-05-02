@@ -1,0 +1,26 @@
+[{
+	"name"	:"Sami",
+	"phone" : 8491881271,
+	"marks" : 98
+},
+{
+	"name"	:"varun",
+	"phone" : 9797859943,
+	"marks" : 100
+},
+{
+	"name"	:"rahul",
+	"phone" : 979700001,
+	"marks" : 100
+},
+{
+	"name"	:"jack",
+	"phone" : 9797859879,
+	"marks" : 78
+},
+{
+	"name"	:"pop",
+	"phone" : 9797858877,
+	"marks" : 75
+}
+]
