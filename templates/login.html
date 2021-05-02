@@ -1,14 +1,32 @@
 <html>
     <head>
         <title>Login | MongoFLask Result App</title>
-        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="/templates/login.css">
         <style>
             .i1{
-                color: red;
+                color: white;
+                font-size: 35px;
                 }
+            form{
+                color:white;
+                font-size: 20px;
+            }
+            .bg{
+                background-image: url('https://i.pinimg.com/originals/fd/e7/55/fde755aefcb887e4aa5117d7509e9d51.jpg');
+                background-repeat:repeat;
+                background-size: cover;
+            }
+            
+            .c{
+                display: inline-block;
+                color: white;
+                margin-top: 400px;
+                vertical-align: top;
+            }
+           
         </style>
     </head>
-    <body>
+    <body class="bg">
         <center>
             <h1 class="i1">RESULT</h1>
             <form action="/result" method="GET">
@@ -16,6 +34,17 @@
                 Roll No : <input type="number" name="roll" required>
                 <input type="submit">
             </form>
+            <div class="p">
+                <div class="c">
+                    <img src="https://images.ctfassets.net/wqwerb01q4v1/1OjsXzuqFttb5FJSPifw6d/851493951d70729c4d601edc4d70fd5c/MongoDB-logo-color.png"width="150px">
+                </div>
+                <div class="c">
+                    <img src="https://www.python.org/static/community_logos/python-logo-generic.svg" width="150px">
+                </div>
+                <div class="c">
+                    <img src="https://miro.medium.com/max/800/1*Q5EUk28Xc3iCDoMSkrd1_w.png" width="150px">
+                </div>
+            </div>
         </center>
     </body>
 </html>

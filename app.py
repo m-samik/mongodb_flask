@@ -28,7 +28,7 @@ def result():
             mk=int(i['marks'])
             output="Marks obtained by " + name + " are : " + str(mk)
             if mk >= 90:
-               print("Congrats You Got First Division")
+               print("Congrats! You Got First Division")
             else:
                 print("Oops ! You need to World Hard")
             return str(output)
