@@ -1,7 +1,6 @@
 <html>
     <head>
         <title>RESULT| MongoFLask Result App</title>
-        <link rel="stylesheet" href="/templates/login.css">
         <style>
             *{
                 margin: 0;
@@ -34,6 +33,7 @@
             tr,th,td{
                 border: solid rgb(255, 4, 4);
                 color:white;
+                font-size: 17px;
             }
             table,img{
                 display: inline-block;
@@ -42,7 +42,15 @@
             img{
                 border-radius: 50px;
             }
-            
+            .buttonb{
+                background-color: yellow;
+                border-radius: 40px;
+                width: 100px;
+                margin-top: 20px;
+            }
+            .buttonb a{
+                text-decoration: none;
+            }
            
         </style>
     </head>
@@ -67,11 +75,15 @@
                     <td>{{chem}}</td>
                     <td>{{mth}}</td>
                     <td>{{tot}}</td>
-                    <td>{{percent}}</td>
+                    <td>{{percent}}%</td>
                   </tr>
                   
             </table>
             <img src="{{img}}" width="60px" >
+            <div class="buttonb">
+                <p><a href="/">GO BACK</a></p>
+            </div>
+            
             <div class="p">
                 <div class="c">
                     <img src="/static/mongodb.png"width="250px">
@@ -83,6 +95,7 @@
                     <img src="/static/image.png" width="112px">
                 </div>
             </div>
+            
         </center>
     </body>
 </html>
