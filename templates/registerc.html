@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <title>RESULT| MongoFLask Result App</title>
+        <link rel="stylesheet" href="/templates/login.css">
+        <style>
+            *{
+                margin: 0;
+            }
+            .alert {
+                padding: 20px;
+                background-color: yellow;
+                color: rgb(2, 2, 2);
+                }
+
+                .closebtn {
+                margin-left: 15px;
+                color: rgb(0, 0, 0);
+                font-weight: bold;
+                float: right;
+                font-size: 22px;
+                line-height: 20px;
+                cursor: pointer;
+                transition: 0.3s;
+                }
+
+                .closebtn:hover {
+                color: black;
+                }
+            .i1{
+                color: white;
+                font-size: 35px;
+                background-color:rgba(223, 7, 7, 0.664);
+                }
+            form{
+                margin-top: 50px;
+                color:white;
+                font-size: 20px;
+            }
+            .bg{
+                background-image: url('https://img.freepik.com/free-photo/stationery-pencils-paper-clip-pen-eraser-white-bucket-still-life-green-school-board-background-copy-space-flat-lay-top-view-concept-education_7280-1693.jpg?size=626&ext=jpg');
+                background-repeat:no-repeat;
+                background-size: 100% 100%;
+            }
+            
+            .c{
+                display: inline-block;
+                color: white;
+                margin-top: 220px;
+                vertical-align: top;
+            }
+            .left{
+                margin-left: 50px;;
+            }
+            tr,th,td{
+                border: solid rgb(247, 245, 245);
+                color:rgb(255, 255, 255);
+            }
+            table,img{
+                display: inline-block;
+                margin-top: 40px;
+            }
+            img{
+                border-radius: 50px;
+            }
+            
+           
+        </style>
+    </head>
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        <strong>Congratulations !! </strong> User {{uname}} Details and Marks are added Successfully
+      </div>      
+    <body class="bg">
+        <center>
+            <h1 class="i1">REGISTER</h1>
+            <form method="POST" action="/submit" enctype="multipart/form-data"> 
+                <table border="1"> 
+                    <tr> 
+                        <td>Name : </td> 
+                        <td> 
+                            <input type="text" name="name" size="25" placeholder="Enter Your First Name"> 
+                        </td> 
+                    </tr> 
+                    <tr> 
+                        <td>Roll No : </td> 
+                        <td><input type="number" name="rollno" size="25" placeholder="Enter Your Roll Number"></td> 
+                    </tr> 
+                    <tr> 
+                        <td>Mobile Number : </td> 
+                        <td><input type="number" name="mobile" size="25" placeholder="Mobile Number" ></td> 
+                    </tr> 
+                    <tr> 
+                        <td>Physics : </td> 
+                        <td><input type="number" name="physics" size="25" placeholder="Enter Marks of Physics"></td> 
+                    </tr> 
+                    <tr> 
+                        <td>Chemistry :</td> 
+                        <td><input type="number" name="chemistry" size="25" placeholder="Enter Marks of Chemistry"></td> 
+                    </tr> 
+                    <tr> 
+                        <td>Maths:</td> 
+                        <td><input type="number" name="maths" size="25" placeholder="Enter Marks of Maths"></td> 
+                    </tr>
+                    <tr>
+                        <td>Upload Your Picture :</td>
+                        <td><input type="file" name="file" size="40"></td>
+                    </tr>
+                </table> 
+                <p> 
+                    <input type="submit" value="submit" name="b1"> 
+                </p> 
+            </form> 
+            <div class="p">
+                <div class="c">
+                    <img src="/static/mongodb.png"width="250px">
+                </div>
+                <div class="c">
+                    <img class="left" src="/static/python.png" width="85px">
+                </div>
+                <div class="c">
+                    <img src="/static/image.png" width="112px">
+                </div>
+            </div>
+        </center>
+    </body>
+</html>

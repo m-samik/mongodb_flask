@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>RESULT| MongoFLask Result App</title>
+        <link rel="stylesheet" href="/templates/login.css">
+        <style>
+            *{
+                margin: 0;
+            }
+            .top{
+                background-color:rgba(223, 7, 7, 0.664);
+            }
+            .i1{
+                color: white;
+                font-size: 35px;
+                margin-left: 700px;
+                
+                }
+            form{
+                margin-top: 50px;
+                color:white;
+                font-size: 20px;
+            }
+            .bg{
+                background-image: url('https://img.freepik.com/free-photo/stationery-pencils-paper-clip-pen-eraser-white-bucket-still-life-green-school-board-background-copy-space-flat-lay-top-view-concept-education_7280-1693.jpg?size=626&ext=jpg');
+                background-repeat:no-repeat;
+                background-size: 100% 100%;
+            }
+            
+            .c{
+                display: inline-block;
+                color: white;
+                margin-top: 400px;
+                vertical-align: top;
+            }
+            .left{
+                margin-left: 50px;;
+            }
+            .i1,.i2{
+                display: inline-block;
+                vertical-align: top;
+            }
+            .i2{
+                margin-left: 590px;
+                background-color: yellow;
+                margin-top: 7px;
+                border-radius: 20px;
+                padding: 4px;
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
+            .i2 a{
+                text-decoration: none;
+                color: black;
+            }
+           
+        </style>
+    </head>
+    <body class="bg">
+        <div class="top">
+            <h1 class="i1">RESULT</h1>
+            <p class="i2"><a href="/register">ADMIN</a></p>
+        </div>
+       
+        <center>
+            <form action="/result" method="GET">
+                Name : <input type="text" name = "name" required>
+                Roll No : <input type="number" name="roll" required>
+                <input type="submit">
+            </form>
+            <div class="p">
+                <div class="c">
+                    <img src="/static/mongodb.png"width="250px">
+                </div>
+                <div class="c">
+                    <img class="left" src="/static/python.png" width="85px">
+                </div>
+                <div class="c">
+                    <img src="/static/image.png" width="112px">
+                </div>
+            </div>
+        </center>
+    </body>
+</html>

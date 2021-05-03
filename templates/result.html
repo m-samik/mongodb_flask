@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>RESULT| MongoFLask Result App</title>
+        <link rel="stylesheet" href="/templates/login.css">
+        <style>
+            *{
+                margin: 0;
+            }
+            .i1{
+                color: white;
+                font-size: 35px;
+                background-color:rgba(223, 7, 7, 0.664);
+                }
+            form{
+                margin-top: 50px;
+                color:white;
+                font-size: 20px;
+            }
+            .bg{
+                background-image: url('https://img.freepik.com/free-photo/stationery-pencils-paper-clip-pen-eraser-white-bucket-still-life-green-school-board-background-copy-space-flat-lay-top-view-concept-education_7280-1693.jpg?size=626&ext=jpg');
+                background-repeat:no-repeat;
+                background-size: 100% 100%;
+            }
+            
+            .c{
+                display: inline-block;
+                color: white;
+                margin-top: 400px;
+                vertical-align: top;
+            }
+            .left{
+                margin-left: 50px;;
+            }
+            tr,th,td{
+                border: solid rgb(255, 4, 4);
+                color:white;
+            }
+            table,img{
+                display: inline-block;
+                margin-top: 40px;
+            }
+            img{
+                border-radius: 50px;
+            }
+            
+           
+        </style>
+    </head>
+    <body class="bg">
+        <center>
+            <h1 class="i1">RESULT</h1>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Roll No</th>
+                    <th>Physics</th> 
+                    <th>Chemistry</th> 
+                    <th>Math</th> 
+                    <th>Total Marks</th> 
+                    <th>Percentage</th>
+                    
+                  </tr>
+                  <tr>
+                    <td>{{name}}</td>
+                    <td>{{roll}}</td>
+                    <td>{{phy}}</td>
+                    <td>{{chem}}</td>
+                    <td>{{mth}}</td>
+                    <td>{{tot}}</td>
+                    <td>{{percent}}</td>
+                  </tr>
+                  
+            </table>
+            <img src="{{img}}" width="60px" >
+            <div class="p">
+                <div class="c">
+                    <img src="/static/mongodb.png"width="250px">
+                </div>
+                <div class="c">
+                    <img class="left" src="/static/python.png" width="85px">
+                </div>
+                <div class="c">
+                    <img src="/static/image.png" width="112px">
+                </div>
+            </div>
+        </center>
+    </body>
+</html>

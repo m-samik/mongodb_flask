@@ -1,26 +1,61 @@
 [{
 	"name"	:"Sami",
 	"phone" : 8491881271,
-	"marks" : 98
+	"rollno": 12001474,
+	"marks" : {
+				"physics":98,
+				"chemistry":78,
+				"maths" : 84
+				},
+	"image" :"http://lw-in.ml/images/stimg.jpg"
+
 },
 {
-	"name"	:"varun",
-	"phone" : 9797859943,
-	"marks" : 100
+	"name"	:"Varun",
+	"phone" : 9187065420,
+	"rollno": 12003948,
+	"marks" : {
+				"physics":78,
+				"chemistry":88,
+				"maths" : 54
+				},
+	"image" :"http://lw-in.ml/images/stimg.jpg"
+
 },
 {
-	"name"	:"rahul",
-	"phone" : 979700001,
-	"marks" : 100
+	"name"	:"Rahul",
+	"phone" : 8491881871,
+	"rollno": 12003156,
+	"marks" : {
+				"physics":88,
+				"chemistry":58,
+				"maths" : 84
+				},
+	"image" :"http://lw-in.ml/images/stimg.jpg"
+
 },
 {
-	"name"	:"jack",
-	"phone" : 9797859879,
-	"marks" : 78
+	"name"	:"Jack",
+	"phone" : 9797859999,
+	"rollno": 12003659,
+	"marks" : {
+				"physics":51,
+				"chemistry":48,
+				"maths" : 44
+				},
+	"image" :"http://lw-in.ml/images/stimg.jpg"
+
 },
 {
-	"name"	:"pop",
-	"phone" : 9797858877,
-	"marks" : 75
+	"name"	:"Tabish",
+	"phone" : 7810184052,
+	"rollno": 12008795,
+	"marks" : {
+				"physics":100,
+				"chemistry":100,
+				"maths" : 100
+				},
+	"image" :"http://lw-in.ml/images/stimg.jpg"
+
 }
 ]
